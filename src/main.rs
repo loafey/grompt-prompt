@@ -42,7 +42,7 @@ fn get() {
     let path = get_path();
     let grompt = get_grompt();
     let emoji = get_emoji();
-    println!("{}{}{}", path.yellow().bold(), grompt, emoji);
+    print!("{}{}{}", path.yellow().bold(), grompt, emoji);
 }
 
 fn main() {
